@@ -1,0 +1,7 @@
+-ou 保存结果url文件
+-os 保存结果子域名文件
+-u  指定url
+-f  指定url文件
+-d  深度爬取
+url需要加上https://或者http://
+python3 JSFinder.py -u https://www.jd.com/ -d -ou jd_url.txt -os jd_domain.txt
